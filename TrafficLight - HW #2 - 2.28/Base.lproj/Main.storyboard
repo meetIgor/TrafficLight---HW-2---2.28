@@ -17,30 +17,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="IwU-Ml-4if">
-                                <rect key="frame" x="127" y="108" width="160" height="524"/>
+                                <rect key="frame" x="134.5" y="64" width="145" height="479"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xaF-Qz-lO4">
-                                        <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="145" height="145"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="njX-Sq-Kp8">
-                                        <rect key="frame" x="0.0" y="182" width="160" height="160"/>
+                                        <rect key="frame" x="0.0" y="167" width="145" height="145"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s52-B0-zAP">
-                                        <rect key="frame" x="0.0" y="364" width="160" height="160"/>
+                                        <rect key="frame" x="0.0" y="334" width="145" height="145"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="IwU-Ml-4if" secondAttribute="height" multiplier="40:131" id="Ucc-ND-Mld"/>
+                                    <constraint firstAttribute="width" constant="145" id="C55-h7-tIB"/>
+                                    <constraint firstAttribute="height" constant="479" id="n4B-Oq-H1w"/>
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2w-J9-9ss">
-                                <rect key="frame" x="121" y="766" width="172" height="44"/>
+                                <rect key="frame" x="121" y="803" width="172" height="44"/>
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="172" id="4h9-yZ-3b2"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="172" id="T6h-F5-ujt"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -54,11 +55,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="IwU-Ml-4if" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="1vB-ED-iTe"/>
-                            <constraint firstItem="IwU-Ml-4if" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bdk-pN-eNW"/>
-                            <constraint firstItem="P2w-J9-9ss" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Bpy-E3-ce5"/>
-                            <constraint firstItem="IwU-Ml-4if" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="MQA-Jr-ckp"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="P2w-J9-9ss" secondAttribute="bottom" constant="52" id="Sc4-o9-EtJ"/>
+                            <constraint firstItem="P2w-J9-9ss" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3g2-j3-YKk"/>
+                            <constraint firstItem="IwU-Ml-4if" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CZE-DZ-t9l"/>
+                            <constraint firstItem="IwU-Ml-4if" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="ETA-w2-QOB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="P2w-J9-9ss" secondAttribute="bottom" constant="15" id="Pj7-MF-np0"/>
                         </constraints>
                     </view>
                     <connections>
